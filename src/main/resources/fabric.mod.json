@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "headmod",
+	"version": "1.0.1",
+	"name": "Head Mod",
+	"description": "Приватный мод для получения кастомных голов.",
+	"authors": [
+		"Dmitriy Krutoi"
+	],
+	"contact": {
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/modhead-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.headmod.HeadMod"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
